@@ -8,7 +8,7 @@ const cors = require('cors');
 
 // Enable CORS for frontend
 app.use(cors({
-  origin: 'https://kyroscareerguidanceweb.onrender.com',
+  origin: 'https://ai-ehz8.onrender.com',
   credentials: true
 }));
 
@@ -41,7 +41,7 @@ app.get('/test-api', (req, res) => {
 });
 
 // Connect to MongoDB
-mongoose.connect(process.env.MONGODB_URI || 'mongodb+srv://Mohan:20082001Tinku@cluster0.hwxjzfe.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', {
+mongoose.connect(process.env.MONGODB_URI || 'mongodb+srv://mohansai5861_db_user:cWFeVI2HciSfD7TZ@cluster0.pdukpon.mongodb.net/kyrosDB?retryWrites=true&w=majority', {
         useNewUrlParser: true,
         useUnifiedTopology: true
     })
